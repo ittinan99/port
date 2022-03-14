@@ -1,0 +1,254 @@
+.grid-container {
+		
+	display: grid;
+	grid-template-columns: 30% auto 30%;
+	grid-gap: 10px;
+}
+
+.grid-container > div{
+	border: 5px solid rgb(150, 24, 61);
+	font-size: 20px;
+	text-align: center;
+	background-color:white;
+	height: fit-content;
+}
+
+#header1{
+	grid-column: 2;
+	grid-row: 1;
+	margin: auto;
+	background-color:rgb(214, 146, 172);
+}
+#pic1{
+	grid-row: 4;
+	
+}
+#pic2{
+	grid-column: 2;
+	grid-row: 2;
+}
+#pic3{
+	grid-column: 3;
+	grid-row: 2;
+	height: fit-content;
+}
+#header2{
+	grid-row: 3;
+	grid-column: 2;
+	margin: auto;
+	background-color:rgb(214, 146, 172);
+}
+#pic4{
+	grid-column: 1;
+	grid-row: 2;
+	height: fit-content;
+}
+#text3{
+	grid-row: 4;
+	grid-column: 2;	
+	background-color:rgb(219, 209, 180);
+}
+#pic5{
+	grid-column: 3;
+	grid-row: 4;
+}
+#header3{
+	grid-row: 5;
+	grid-column: 2;
+	margin: auto;
+	background-color:rgb(214, 146, 172);
+}
+#pic6{
+	grid-row: 6;
+}
+#text4{
+	grid-row: 6;
+	grid-column: 2 /span 2;	
+	background-color:rgb(219, 209, 180);
+}
+#footage{
+	grid-column: 1;
+	grid-row: 8;
+	background-color:rgb(219, 209, 180);
+}
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 50% auto;
+		grid-gap: 10px;
+	}
+	
+	#header1{
+		grid-column: 1;
+		grid-row: 1;
+		margin: auto;
+		background-color:rgb(214, 146, 172);
+	}
+	#pic1{
+		grid-column: 1;
+		grid-row: 6;
+		
+	}
+	#pic2{
+		grid-column: 2;
+		grid-row: 2 /span 2;
+		height: fit-content;
+	}
+	#pic3{
+		grid-column: 1;
+		grid-row: 2;
+		height: fit-content;	
+	}
+	#header2{
+		grid-column: 1;
+		grid-row: 4;
+		margin: auto;
+		background-color:rgb(214, 146, 172);
+	}
+	#pic4{
+		grid-column: 1;
+		grid-row: 3;
+		height: fit-content;
+	}
+	#text3{	
+		grid-column: 1;
+		grid-row: 5;
+		background-color:rgb(219, 209, 180);
+	}
+	#pic5{
+		grid-column: 2;
+		grid-row: 5 /span 2;
+		height: fit-content;
+	}
+	#header3{
+		grid-column: 1;
+		grid-row: 7;
+		margin: auto;
+		background-color:rgb(214, 146, 172);
+	}
+	#pic6{
+		grid-column: 1;
+		grid-row: 8;
+	}
+	#text4{
+		grid-column: 2;
+		grid-row: 8;
+		background-color:rgb(219, 209, 180);
+	}
+	#footage
+	{
+		grid-column: 1;
+		grid-row: 10;
+		background-color:rgb(219, 209, 180);
+		width: fit-content;
+		height: fit-content;
+	}
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+		grid-gap: 10px;
+	}
+	
+	#header1{
+		grid-column: 1;
+		grid-row: 1;
+		margin: auto;
+		background-color:rgb(214, 146, 172);
+	}
+	#pic1{
+		grid-column: 1;
+		grid-row: 2;
+	}
+	#pic2{
+		grid-column: 1;
+		grid-row: 3;
+	}
+	#pic3{
+		grid-column: 1;
+		grid-row: 4;
+	}
+	#text1{	
+		grid-column: 1;
+		background-color:rgb(219, 209, 180);
+	}
+	#text2{
+		grid-column: 1;
+		background-color:rgb(219, 209, 180);
+	}
+	#header2{
+		grid-column: 1;
+		grid-row: 5;
+		margin: auto;
+		background-color:rgb(214, 146, 172);
+	}
+	#pic4{
+		grid-column: 1;
+		grid-row: 6;
+	}
+	#text3{	
+		grid-column: 1;
+		grid-row: 7;
+		background-color:rgb(219, 209, 180);
+	}
+	#pic5{
+		grid-column: 1;
+		grid-row: 8;
+	}
+	#header3{
+		grid-column: 1;
+		grid-row: 9;
+		margin: auto;
+		background-color:rgb(214, 146, 172);
+	}
+	#pic6{
+		grid-column: 1;
+		grid-row: 10;
+	}
+	#text4{
+		grid-column: 1;
+		grid-row: 11;
+		background-color:rgb(219, 209, 180);
+	}
+	#footage
+	{
+		grid-column: 1;
+		grid-row: 12;
+		background-color:rgb(219, 209, 180);
+	}
+}
+}
+h1{
+	font-size: 20pt;
+	text-align: center;
+    color: rgb(68, 60, 52);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h2{
+	font-size: 12pt;
+	text-align: left;
+    color: rgb(155, 85, 20);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+h3{
+	font-size: 10pt;
+	text-align: center;
+    background-color:rgb(236, 194, 76);
+    color: rgb(155, 85, 20);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+	margin: auto;
+}
+body{
+	background-color: rgb(66, 44, 44);
+}
+img{
+	width: 100%;
+}

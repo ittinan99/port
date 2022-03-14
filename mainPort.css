@@ -1,0 +1,264 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 30% auto 35%;
+}
+.grid-containerProject {
+	display: grid;
+	grid-template-columns: 50% auto;
+}
+.grid-container > div{
+	font-size: 20px;
+	text-align: center;
+	background-color:rgb(48, 45, 42);
+	height: fit-content;
+	border: 5pt solid rgb(0, 0, 0);
+}
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+	background-color:rgb(48, 45, 42);
+}
+.logo{
+	 background-color: white;
+	 width: 20%;
+	 border-radius: 20px;
+	 margin: 2%;
+}
+#MyPic{
+	grid-column: 1;
+	grid-row: 1;
+	width: 50%;
+	margin: auto;
+}
+#Profile{
+	grid-column: 2;
+	grid-row: 1;
+}
+#Experience{
+	grid-column: 3;
+	grid-row: 1;
+}
+#Skill{
+	grid-column: 1;
+	grid-row: 2;
+}
+#Education{
+	grid-column: 2;
+	grid-row: 2;
+}
+#Assignment
+{
+	grid-column: 3;
+	grid-row: 2;
+}
+#CVVInfo{
+	grid-column: 1;
+	grid-row: 1;
+}
+#CVVPic{
+	grid-column: 2;
+	grid-row: 1;
+}
+#WolfHoodInfo{
+	grid-column: 1;
+	grid-row: 2;
+}
+#WolfHoodVideo{
+	grid-column: 2;
+	grid-row: 2;
+}
+#PrisonOfThoughtInfo{
+	grid-column: 1;
+	grid-row: 3;
+}
+#PrisonOfThoughtPic{
+	grid-column: 2;
+	grid-row: 3;
+}
+#FormulaAreCrazyInfo{
+	grid-column: 1;
+	grid-row: 4;
+}
+#FormulaAreCrazyVideo{
+	grid-column: 2;
+	grid-row: 4;
+}
+#MonstravaderInfo{
+	grid-column: 1;
+	grid-row: 5;
+}
+#MonstravaderVideo{
+	grid-column: 2;
+	grid-row: 5;
+}
+.Add-border{
+	border: 5pt solid rgb(94, 89, 89);
+}
+
+@media only screen and (max-width: 768px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: 50% auto;
+	}
+	#MyPic{
+		grid-column: 1;
+		grid-row: 2;
+		width: fit-content;
+	}
+	#Profile{
+		grid-column: 1;
+		grid-row: 1;
+	}
+	#Experience{
+		grid-column: 2;
+		grid-row: 1;
+	}
+	#Skill{
+		grid-column: 2;
+		grid-row: 2;
+	}
+	#Education{
+		grid-column: 1;
+		grid-row: 3;
+	}
+	#Assignment{
+		grid-column: 2;
+		grid-row: 3;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.grid-container {
+		display: grid;
+		grid-template-columns: auto;
+	}
+	.grid-containerProject {
+		display: grid;
+		grid-template-columns: auto;
+	}
+	#MyPic{
+		grid-column: 1;
+		grid-row: 2;
+		width: fit-content;
+	}
+	#Profile{
+		grid-column: 1;
+		grid-row: 1;
+	}
+	#Experience{
+		grid-column: 1;
+		grid-row: 3;
+	}
+	#Skill{
+		grid-column: 1;
+		grid-row: 4;
+	}
+	#Education{
+		grid-column: 1;
+		grid-row: 5;
+	}
+	#Assignment
+	{
+		grid-column: 1;
+		grid-row: 6;
+	}
+	#CVVInfo{
+		grid-column: 1;
+		grid-row: 1;
+	}
+	#CVVPic{
+		grid-column: 1;
+		grid-row: 2;
+	}
+	#WolfHoodInfo{
+		grid-column: 1;
+		grid-row: 3;
+	}
+	#WolfHoodVideo{
+		grid-column: 1;
+		grid-row: 4;
+	}
+	#PrisonOfThoughtInfo{
+		grid-column: 1;
+		grid-row: 5;
+	}
+	#PrisonOfThoughtPic{
+		grid-column: 1;
+		grid-row: 6;
+	}
+	#FormulaAreCrazyInfo{
+		grid-column: 1;
+		grid-row: 7;
+	}
+	#FormulaAreCrazyVideo{
+		grid-column: 1;
+		grid-row: 8;
+	}
+	#MonstravaderInfo{
+		grid-column: 1;
+		grid-row: 9;
+	}
+	#MonstravaderVideo{
+		grid-column: 1;
+		grid-row: 10;
+	}
+}
+h1{
+	font-size: 13pt;
+	text-align: left;
+    color: rgb(218, 204, 190);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-top: 2%;
+	margin-left: 2%;
+}
+h2{
+	font-size: 18pt;
+	text-align: left;
+    color: rgb(155, 85, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+h3{
+	font-size: 18pt;
+	text-align: left;
+    color: rgb(155, 85, 20);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.topic-size{
+	font-size: 30pt;
+	background-color: black;
+}
+.info-color{
+	color: rgb(211, 219, 175);
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	background-color: rgb(48, 45, 42);;
+}
+.info-size{
+	font-size: 15pt;
+}
+.topic-margin{
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 2%;
+}
+.pic-rad{
+	border-radius: 70px;
+}
+.link{
+	color: rgb(211, 219, 175);
+	font-size: 15pt;
+}
+body{
+	background-color: rgb(0, 0, 0);
+}
+img{
+	width: 100%;
+}
+video{
+	width: 100%;
+}

@@ -1,0 +1,82 @@
+h1{
+    font-size: 45pt;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: lightblue;
+    color: rgb(49, 139, 167);
+    text-align: left;
+    margin: auto;
+}
+h2{
+    font-size: 25pt;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(17, 48, 58);
+    color: rgb(214, 210, 168);
+    text-align: left;
+    width: 500px;
+    height: 50px;
+    margin: left;
+}
+h3{
+    font-size: 25pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 250, 230);
+    color: rgb(70, 65, 13);
+    text-align: left;
+}
+h4{
+    font-size: 20pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 250, 230);
+    color: rgb(70, 65, 13);
+    text-align: left;
+    height: 800px;
+}
+h5{
+    font-size: 12pt;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(86, 191, 226);
+    color: rgb(214, 210, 168);
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-color: rgb(250, 226, 194);
+}
+.pic{
+    border: 8px solid rgb(67, 82, 81);
+    width: 15%;
+    float: left;
+    margin: 25pt;
+}
+ul{
+    width: 200px;
+    margin: auto;
+}
+div{
+    text-align: center;
+}
+.textbox{
+    display: inline-block;
+    text-align: center;
+}
+.stylized{
+    display: block;
+}
+.parent{
+    text-align: left;
+}
+.div_display{
+    border: 2px solid rgb(23, 90, 84);
+    display: inline-block;
+}
+.pic_display{
+    
+    border: 8px solid rgb(67, 82, 81);
+    display: inline-block;
+    width: 30%;
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
